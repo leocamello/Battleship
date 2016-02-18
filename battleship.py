@@ -25,8 +25,6 @@ def random_col(board):
 
 ship_row = random_row(board)
 ship_col = random_col(board)
-guess_row = int(raw_input("Guess Row:"))
-guess_col = int(raw_input("Guess Col:"))
 
 print ship_row
 print ship_col
